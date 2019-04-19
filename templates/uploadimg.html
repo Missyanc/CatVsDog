@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat vs Dog</title>
+    <style type="text/css">
+        .bady{
+            background-image: url("/media/static/uploadimage.JPG");
+            background-size:100%;
+        }
+        .title {
+            padding: 30px 0 40px;
+            font-size: 60px;
+            font-weight: bold;
+            color: #a93e36;
+            text-align: center;
+            font-family: 迷你繁启体;
+        }
+        .cat{
+            padding: 30px 0 30px;
+            margin-right: 210px;
+            font-size: 60px;
+            font-weight: bold;
+            color: #403e3c;
+            text-align: center;
+            font-family: 迷你繁启体;
+        }
+         .vs{
+             padding: 30px 0 30px;
+             font-size: 90px;
+             color: #eb100d;
+             text-align: center;
+             font-weight: bolder;
+             font-family: Castellar;
+        }
+        .dog{
+            margin-left: 210px;
+            padding: 30px 0 30px;
+            font-size: 60px;
+            font-weight: bold;
+            color: #434041;
+            text-align: center;
+            font-family: 迷你繁启体;
+        }
+        .picture_form{
+            text-align: center;
+        }
+        .image1{
+            margin-left: 260px;
+            height: 350px;
+        }
+        .image2{
+            margin-left: 150px;
+            height: 350px;
+        }
+        .load_button { /* 按钮美化 */
+    	    width: 170px; /* 宽度 */
+	        height: 50px; /* 高度 */
+	        border-width: 0px; /* 边框宽度 */
+	        border-radius: 3px; /* 边框半径 */
+	        background: #ddc469; /* 背景颜色 */
+	        cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	        outline: none; /* 不显示轮廓线 */
+	        font-family: Microsoft YaHei; /* 设置字体 */
+	        color: #010901; /* 字体颜色 */
+	        font-size: 22px; /* 字体大小 */
+        }
+        .load_button:hover { /* 鼠标移入按钮范围时改变颜色 */
+        	background: #c2f9d3;
+        }
+        .result{
+            padding: 30px 0 30px;
+            font-family: 汉仪粗圆简;
+            font-size: 24px;
+            font-weight: bold;
+            color: #2a2d2a;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body class="bady">
+
+<div class="title">我知道你上传的图片是猫还是狗</div>
+
+
+<form class="picture_form" method="POST" enctype="multipart/form-data">
+<input type="file" name="img">
+<button class="load_button" type="submit">上传图片</button>
+</form>
+<div class="result">
+    <a href="http://127.0.0.1:8000/result/">查看结果</a>
+</div>
+<div style="margin-top: 2   0px;text-align: center">
+    <table>
+        <tr>
+            <a class="cat">猫</a>
+            <a class="vs">vs</a>
+            <a class="dog">狗</a>
+        </tr>
+    </table>
+</div>
+<div style="margin-top: 50px">
+    <table>
+        <tr>
+                <img class="image1" src="/media/static/cat.jpg">
+                <img class="image2" src="/media/static/dog.jpg">
+        </tr>
+    </table>
+</div>
+</body>
+</html>

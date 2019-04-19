@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <style type="text/css">
+        .result{
+            padding: 60px 0 40px;
+            font-size: 100px;
+            font-weight: lighter;
+            font-family: 迷你简启体;
+            color: #383d38;
+            text-align: center;
+            margin-top: 80px;
+        }
+        .bb{
+            background-image: url("/media/static/ground.jpg");
+            background-size:100%;
+        }
+    </style>
+</head>
+<body class="bb">
+
+{% for key,value in data.items %}
+    <div  style="text-align: center;margin-top: 100px">
+        <img style="height: 400px" src="{{ key }}" />
+    </div>
+    <div class="result">
+        {{ value }}
+    </div>
+{% endfor %}
+
+</body>
+</html>
