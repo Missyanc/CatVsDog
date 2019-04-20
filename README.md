@@ -1,7 +1,4 @@
 # Cat Vs Dog
-
-[TOC]
-
 ## 项目文件夹目录介绍：
 
 - [CatVsDog](https://github.com/Missyanc/CatVsDog/tree/master/CatVsDog) : 为 Web 项目的文件夹设置
@@ -18,11 +15,11 @@
 - [db.sqlite3](https://github.com/Missyanc/CatVsDog/blob/master/db.sqlite3) ： Django 自带的数据库
 - [manage.py](https://github.com/Missyanc/CatVsDog/blob/master/manage.py) ： Django 执行脚本
 
-**数据集百度云链接：https://pan.baidu.com/s/1qsvmq3uwqr79ykI5FblV8g **
-**提取码：yun5 **
+**数据集百度云链接：https://pan.baidu.com/s/1qsvmq3uwqr79ykI5FblV8g**
+**提取码：yun5**
 
-**训练好的模型百度云链接：https://pan.baidu.com/s/1FNs_WPPVJbnVPW8auHypCw 
-提取码：wylv **
+**训练好的模型百度云链接：https://pan.baidu.com/s/1FNs_WPPVJbnVPW8auHypCw** 
+**提取码：wylv**
 
 ## 项目简介
 
