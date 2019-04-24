@@ -20,6 +20,7 @@
 
 **训练好的模型百度云链接：https://pan.baidu.com/s/1FNs_WPPVJbnVPW8auHypCw** 
 **提取码：wylv**
+
 **B站项目介绍视频地址：https://www.bilibili.com/video/av50237864/**
 
 ## 项目简介
