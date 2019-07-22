@@ -1,6 +1,6 @@
 Django==2.2
 Keras==2.2.4
-matplotlib==3.0.3
+matplotlib==3.0.1
 numpy==1.16.3
 opencv-python==4.1.0.25
 Pillow==6.0.0
