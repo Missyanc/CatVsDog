@@ -1,4 +1,4 @@
-Django==2.2
+Django==2.2.24
 Keras==2.2.4
 matplotlib==3.0.1
 numpy==1.16.3
